@@ -19,13 +19,16 @@ h2,h3 {
 }
 
 h1 {
-   font-size: 90px;
+   font-size: 80px;
    color: white;
-   margin-bottom: 25px;
+   margin: 0 auto 25px;
+   width: 85%;
+   
 }
 
 h2 {
    font-size: 45px;
+   margin-bottom: 20px;
 }
 
 h3 {
@@ -34,7 +37,7 @@ h3 {
 }
 p {
    
-   line-height: 36px;
+   line-height: 28px;
 }
 
 img {
@@ -49,7 +52,7 @@ a {
  background-color: #FF5959;
  color: white;
  font-weight: 600;
- font-size: 28px;
+ font-size: 22px;
  padding: 18px 24px;
  border-radius: 5px;
 
@@ -81,8 +84,103 @@ a {
 .header_content p {
    color: white ;
    margin: 0 auto 30px;
-   width: 80%;
+   width: 70%;
    font-size: 24px;
    font-weight: 400;
    
+}
+
+.flex_section {
+   padding: 130px 0 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.donate_today-container {
+   max-width: 800px;
+   text-align: center;
+}
+.donate_amounts-container {
+   margin-top: 40px;
+   margin-bottom: 60px;
+   display: flex;
+   justify-content: space-between;
+}
+.donate_amount {
+   background-color: #fafafa;
+   width: 135px;
+  height: 123px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.donate_amount p {
+   font-family: 'Inter', sans-serif;
+   font-weight: 700;
+   font-size: 30px;
+}
+.active {
+   background-color: #FFEEEE;
+   border: 3px solid #FF5959;
+   color: #FF5959;
+}
+.amount_input {
+   display: block;
+   width: 100%;
+   margin-bottom: 30px;
+   text-align: center;
+   padding: 10px 0;
+   border: none;
+   border-bottom: 1px solid #dadada;
+   outline: none;
+   font-family: 'Poppins', sans-serif;
+   font-size: 18px;
+}
+.amount_input::placeholder {
+   color: #b3b3b3;
+}
+.donate_plan-container {
+   text-align: center;
+   padding-left: 350px;
+   padding-right: 350px;
+}
+.donate_plan-text {
+   max-width: 800px;
+   margin: 0 auto;
+}
+.plans-container {
+   display: flex;
+   justify-content: space-between;
+   text-align: left;
+   margin-top: 50px;
+   gap: 24px;
+}
+.plans-container p {
+   font-size: 16px;
+   color: #121212;
+   
+}
+.plans-container h3 {
+   margin-bottom: 16px;
+}
+.single_plan {
+   padding: 60px 30px 60px 24px;
+   border-radius: 5px;
+
+}
+
+.single_plan .icon {
+   margin-bottom: 25px;
+}
+.light_blue {
+   background-color: rgba(79,157,166, 0.10);
+}
+.light_pink {
+   background-color: rgba(255,89,89, 0.10);
+}
+
+.peach {
+   background-color: #FFF4D6;
 }
