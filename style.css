@@ -80,7 +80,7 @@ a {
 }
 .header {
  
-   background-image: url(./images/header.png), linear-gradient(rgba(18,18,18,0),rgba(18,18,18,1));
+   background-image: url(./images/donation4.jpg), linear-gradient(rgba(18,18,18,0.1),rgba(18,18,18,1));
    background-blend-mode: overlay;
 
    background-repeat: no-repeat;
