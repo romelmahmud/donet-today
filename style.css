@@ -6,7 +6,7 @@
 
 body{
    font-family: 'Poppins', sans-serif;
-   font-size: 20px;
+   font-size: 18px;
    color: #707070;
 }
 
@@ -84,8 +84,9 @@ a {
 .header_content p {
    color: white ;
    margin: 0 auto 30px;
-   width: 70%;
+   width: 80%;
    font-size: 24px;
+   line-height: 1.5;
    font-weight: 400;
    
 }
@@ -136,7 +137,9 @@ a {
    border-bottom: 1px solid #dadada;
    outline: none;
    font-family: 'Poppins', sans-serif;
-   font-size: 18px;
+   font-size: 20px;
+   color: #FF5959;
+
 }
 .amount_input::placeholder {
    color: #b3b3b3;
@@ -166,6 +169,7 @@ a {
    margin-bottom: 16px;
 }
 .single_plan {
+   width: 33.33%;
    padding: 60px 30px 60px 24px;
    border-radius: 5px;
 
@@ -183,4 +187,116 @@ a {
 
 .peach {
    background-color: #FFF4D6;
+}
+
+.contribute {
+   padding: 130px 350px 0;
+   display: flex;
+   align-items: center;
+}
+.contribute_content {
+   width: 50%;
+}
+.contribute_content p {
+ 
+   margin-bottom: 20px;
+}
+.contribute_content .btn {
+   margin-top: 30px;
+}
+
+.contribute_image {
+   width: 35%;
+  
+}
+.contribute_image img {
+   height: 470px;
+   object-fit: cover;
+}
+.margin {
+   margin-right: 80px;
+}
+.upcoming_event {
+   padding: 130px 300px 0;
+   text-align: center;
+}
+.events_container {
+   margin: 40px 0;
+   display: flex;
+   gap: 40px;
+   justify-content: space-between;
+   text-align: left;
+   
+}
+.single_event {
+   width: 33.33%;
+
+}
+.single_event h3 {
+   margin-bottom: 10px;
+}
+.event_img {
+   margin-bottom: 16px;
+}
+
+.event_img img {
+   border-radius: 5px;
+   height: 400px;
+   object-fit: cover;
+}
+
+.subscribe {
+   padding: 130px 300px 0;
+   text-align: center;
+}
+.subcribe_form {
+   margin: 50px auto 0;
+   background: #FFF4D6;
+   max-width: 980px;
+   padding: 75px 150px;
+
+}
+.subcribe_form form {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.subcribe_form input {
+   background-color: #D9D9D9;
+   border: none;
+   outline: none;
+   padding: 18.2px;
+   width: 50%;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   font-size: 16px;
+   
+}
+.subcribe_form input::placeholder {
+   color: #aa9f9f;
+}
+.subcribe_form .btn {
+   font-size: 16px ;
+   border-top-left-radius: 0;
+   border-bottom-left-radius: 0;
+   padding: 17.5px 44px;
+   outline: none;
+   border: none;
+   cursor: pointer;
+}
+footer {
+   margin-top: 130px;
+   padding: 43px 0;
+   text-align: center;
+   background-color: #121212;
+}
+#humble {
+   font-family: 'Lobster', cursive;
+   font-size: 36px;
+   color: #FF5959;
+   margin-bottom: 24px;
+}
+.footer-text {
+   font-size: 14px;
+   color: #D9DBE1;
 }
