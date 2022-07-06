@@ -22,7 +22,7 @@ h1 {
    font-size: 65px;
    color: white;
    margin: 0 auto 25px;
-   width: 85%;
+   
    
 }
 
@@ -52,7 +52,7 @@ a {
  background-color: #FF5959;
  color: white;
  font-weight: 600;
- font-size: 22px;
+ font-size: 18px;
  padding: 18px 24px;
  border-radius: 5px;
 
@@ -99,9 +99,7 @@ a {
 .header_content p {
    color: white ;
    margin: 0 auto 30px;
-   width: 80%;
-   font-size: 24px;
-   line-height: 1.5;
+
    font-weight: 400;
    
 }
