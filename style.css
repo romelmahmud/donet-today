@@ -6,7 +6,7 @@
 
 body{
    font-family: 'Poppins', sans-serif;
-   font-size: 18px;
+   font-size: 20px;
    color: #707070;
 }
 
@@ -62,7 +62,22 @@ a {
    width: 53px;
    height: 53px;
 }
+.flex_section {
+   padding: 130px 0 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 
+.section_padding {
+   padding: 130px 300px 0;
+   text-align: center;
+}
+
+.body-text {
+   max-width: 800px;
+   margin: 0 auto;
+}
 .header {
  
    background-image: url(./images/header.png), linear-gradient(rgba(18,18,18,0),rgba(18,18,18,1));
@@ -91,12 +106,6 @@ a {
    
 }
 
-.flex_section {
-   padding: 130px 0 0;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
 
 .donate_today-container {
    max-width: 800px;
@@ -149,10 +158,7 @@ a {
    padding-left: 350px;
    padding-right: 350px;
 }
-.donate_plan-text {
-   max-width: 800px;
-   margin: 0 auto;
-}
+
 .plans-container {
    display: flex;
    justify-content: space-between;
@@ -161,7 +167,7 @@ a {
    gap: 24px;
 }
 .plans-container p {
-   font-size: 16px;
+   font-size: 18px;
    color: #121212;
    
 }
@@ -170,7 +176,7 @@ a {
 }
 .single_plan {
    width: 33.33%;
-   padding: 60px 30px 60px 24px;
+   padding: 60px 30px 60px 30px;
    border-radius: 5px;
 
 }
@@ -216,10 +222,7 @@ a {
 .margin {
    margin-right: 80px;
 }
-.upcoming_event {
-   padding: 130px 300px 0;
-   text-align: center;
-}
+
 .events_container {
    margin: 40px 0;
    display: flex;
@@ -245,23 +248,20 @@ a {
    object-fit: cover;
 }
 
-.subscribe {
-   padding: 130px 300px 0;
-   text-align: center;
-}
-.subcribe_form {
+
+#subcribe_form {
    margin: 50px auto 0;
    background: #FFF4D6;
    max-width: 980px;
    padding: 75px 150px;
 
 }
-.subcribe_form form {
+#subcribe_form form {
    display: flex;
    align-items: center;
    justify-content: center;
 }
-.subcribe_form input {
+#subcribe_form input {
    background-color: #D9D9D9;
    border: none;
    outline: none;
@@ -272,10 +272,10 @@ a {
    font-size: 16px;
    
 }
-.subcribe_form input::placeholder {
+#subcribe_form input::placeholder {
    color: #aa9f9f;
 }
-.subcribe_form .btn {
+#subcribe_form .btn {
    font-size: 16px ;
    border-top-left-radius: 0;
    border-bottom-left-radius: 0;
