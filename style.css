@@ -174,7 +174,7 @@ a {
 }
 .single_plan {
    width: 33.33%;
-   padding: 60px 30px 60px 30px;
+   padding: 60px 30px 60px 24px;
    border-radius: 5px;
 
 }
@@ -210,11 +210,11 @@ a {
 }
 
 .contribute_image {
-   width: 45%;
+   width: 50%;
   
 }
 .contribute_image img {
-   height: 470px;
+   height: 500px;
    object-fit: cover;
 }
 .margin {
